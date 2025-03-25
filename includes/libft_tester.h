@@ -10,7 +10,7 @@
 # define PURPLE		"\e[1;35m"
 # define RESET		"\e[0m"
 
-# define SUCESS		GREEN"[ OK ] "RESET
+# define SUCCESS		GREEN"[ OK ] "RESET
 # define ERROR		RED"[ ERROR ]"RESET
 # define WARN		PURPLE"[ WARNING ]"RESET
 
