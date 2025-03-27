@@ -5,11 +5,18 @@ EXE			:=	libft_tester
 LIBFT		:=	libft.a
 
 # Files
-VPATH		:=	src : src/tests
+VPATH		:=	src : src/tests : src/tests/ctype_tests
 
 SRC			:=	main.c \
 
-TESTS		:=	test_strlen.c \
+TESTS		:=	test_isalnum.c \
+				test_isalpha.c \
+				test_isascii.c \
+				test_isdigit.c \
+				test_isprint.c \
+				test_tolower.c \
+				test_toupper.c \
+				test_strlen.c \
 
 OBJ_DIR		:=	obj
 SOURCES		:=	${SRC} ${TESTS}
